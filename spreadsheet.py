@@ -7,7 +7,7 @@ from excellib.view import CsvTableView
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('inputfile', action="store", help='planet operate .csv file')
+    parser.add_argument('inputfile', action="store", help='sample .csv file')
     parser.add_argument('outputfile', action="store", help='filename of new file to create')
     args = parser.parse_args()
 
